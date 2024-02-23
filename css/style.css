@@ -1,72 +1,58 @@
-.container {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 10px;
-    align-items: center;
-    position: relative;
-    transition: 0.3s ease;
-}
-
-
 body{
-    background: white;
-    margin: 0;
+    background: #F38188;
+    margin: 15px;
 }
 
-imagen{
-    background: white;
-    width: 400px;
-    height: 110px;
-    
+.container{
+    height: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    background: #FFFFFF;
 }
 
-.inicio{
-    width: 80px;
-    height: 90px;
-    background: white;
-    padding: 10px;
-   
+.caja1{
+    display: flex;
+    flex-direction: row;
 }
 
-.about{
-    width: 100px;
-    height: 90px;
-    background: white;
-    padding: 10px;
-    
+.caja2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+
 }
 
-.servicios{
-    width: 130px;
-    height: 90px;
-    background: white;
-    padding: 10px;
-   
+.item:hover{
+    text-decoration: underline;
+    transition: 1.2s ;
+    cursor: pointer;
 }
 
-.contacto{
-    width: 130px;
-    height: 90px;
-    background: white;
-    padding: 10px;
-   
+.caja3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
 }
 
 .ingles{
-    width: 100px;
-    height: 90px;
-    background: #706F6F;
-    color: white;
     padding: 10px;
-   
+    background: #706F6F;
+    color: #fff;
+    border-radius: 2%;
+    text-decoration: none;
 }
 
-
 .espanol{
-    width: 100px;
-    height: 90px;
-    background: #706F6F;
-    color: white;
     padding: 10px;
-   
+    background: #706F6F;
+    color: #fff;
+    border-radius: 2%;
+    text-decoration: none;
 }
