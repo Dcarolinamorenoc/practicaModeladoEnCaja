@@ -1,11 +1,11 @@
 *{
     padding: 0;
-    margin: 0;
+    margin: 5px;
     box-sizing:border-box;
     text-decoration: none;
 }
 body{
-    background: #F38188;
+    background: white;
 }
 
 .container{
