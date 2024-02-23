@@ -5,7 +5,7 @@
 }
 
 .container{
-    height: 1000px;
+    height: 600px;
     display: flex;
     flex-direction: row;   
     flex-wrap: wrap;
@@ -17,7 +17,7 @@
 .box1{
     padding: 20px;
     flex-basis: 98%;
-    background: rgb(240, 34, 34);
+    background: #B9EEA9;
     display: flex;
     justify-content: space-between;
     align-items: start ;
@@ -33,19 +33,19 @@
     text-decoration: none;
     padding: 10px;
     font-size: 18px;
-    background: rgb(255, 255, 255);
+    background: #ffffff;
     color: #000;
 }
 
 .but:hover{
-    background: rgba(64, 255, 0, 0.306);
+    background: #1db1b14e;
     transition: 1s;
 }
 
 .box2{
     padding: 20px;
     flex-basis: 98%;
-    background: rgb(255, 0, 0);
+    background: #BEDA8A;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -62,19 +62,19 @@
     text-decoration: none;
     padding: 10px;
     font-size: 18px;
-    background: rgb(255, 255, 255);
+    background: #ffffff;
     color: #000;
 }
 
 .but2:hover{
-    background: rgba(43, 255, 0, 0.306);
+    background: #1db1b14e;
     transition: 1s;
 }
 
 .box3{
     padding: 20px;
     flex-basis: 98%;
-    background: rgb(255, 0, 0);
+    background: #B9EEA9;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -91,11 +91,40 @@
     text-decoration: none;
     padding: 10px;
     font-size: 18px;
-    background: rgb(255, 255, 255);
+    background: #ffffff;
     color: #000;
 }
 
 .but3:hover{
-    background: rgba(72, 255, 0, 0.306);
+    background: #1db1b14e;
+    transition: 1s;
+}
+
+.box4{
+    padding: 20px;
+    flex-basis: 98%;
+    background: #BEDA8A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.item4{
+    padding: 10px;
+    font-size: 20px;
+}
+
+.but4{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+    background: #ffffff;
+    color: #000;
+}
+
+.but4:hover{
+    background: #1db1b14e;
     transition: 1s;
 }
