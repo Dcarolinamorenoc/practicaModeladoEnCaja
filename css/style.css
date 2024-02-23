@@ -10,7 +10,7 @@ body{
 }
 
 .container{
-    height: 700px;
+    height: 850px;
     display: flex;
     flex-flow: row wrap;
     flex-direction: column;
