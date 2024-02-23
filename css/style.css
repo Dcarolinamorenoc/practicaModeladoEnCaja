@@ -71,3 +71,31 @@
     transition: 1s;
 }
 
+.box3{
+    padding: 20px;
+    flex-basis: 98%;
+    background: rgb(255, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.item3{
+    padding: 10px;
+    font-size: 20px;
+}
+
+.but3{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+    background: rgb(255, 255, 255);
+    color: #000;
+}
+
+.but3:hover{
+    background: rgba(72, 255, 0, 0.306);
+    transition: 1s;
+}
