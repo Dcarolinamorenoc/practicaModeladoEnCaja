@@ -1,7 +1,7 @@
 .container {
     display: flex;
-    justify-content: center;
-    margin: 25px;
+    justify-content: space-evenly;
+    margin: 10px;
     align-items: center;
     position: relative;
     transition: 0.3s ease;
@@ -9,18 +9,19 @@
 
 
 body{
-    background: #A52A2A;
+    background: white;
     margin: 0;
 }
 
-.imagen{
+imagen{
     background: white;
     width: 400px;
     height: 110px;
+    
 }
 
 .inicio{
-    width: 100px;
+    width: 80px;
     height: 90px;
     background: white;
     padding: 10px;
@@ -32,7 +33,7 @@ body{
     height: 90px;
     background: white;
     padding: 10px;
-   
+    
 }
 
 .servicios{
@@ -44,7 +45,7 @@ body{
 }
 
 .contacto{
-    width: 300px;
+    width: 130px;
     height: 90px;
     background: white;
     padding: 10px;
@@ -52,18 +53,20 @@ body{
 }
 
 .ingles{
-    width: 130px;
+    width: 100px;
     height: 90px;
     background: #706F6F;
+    color: white;
     padding: 10px;
    
 }
 
 
 .espanol{
-    width: 90px;
+    width: 100px;
     height: 90px;
     background: #706F6F;
+    color: white;
     padding: 10px;
    
 }
