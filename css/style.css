@@ -1,5 +1,69 @@
-*{
-    padding: 0;
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+    align-items: center;
+    position: relative;
+    transition: 0.3s ease;
+}
+
+
+body{
+    background: #A52A2A;
     margin: 0;
-    box-sizing: border-box;
+}
+
+.imagen{
+    background: white;
+    width: 400px;
+    height: 110px;
+}
+
+.inicio{
+    width: 100px;
+    height: 90px;
+    background: white;
+    padding: 10px;
+   
+}
+
+.about{
+    width: 100px;
+    height: 90px;
+    background: white;
+    padding: 10px;
+   
+}
+
+.servicios{
+    width: 130px;
+    height: 90px;
+    background: white;
+    padding: 10px;
+   
+}
+
+.contacto{
+    width: 300px;
+    height: 90px;
+    background: white;
+    padding: 10px;
+   
+}
+
+.ingles{
+    width: 130px;
+    height: 90px;
+    background: #706F6F;
+    padding: 10px;
+   
+}
+
+
+.espanol{
+    width: 90px;
+    height: 90px;
+    background: #706F6F;
+    padding: 10px;
+   
 }
