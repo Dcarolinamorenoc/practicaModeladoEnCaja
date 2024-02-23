@@ -3,3 +3,35 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body{
+    background: #AAA9EE;
+    margin: 15px;
+}
+
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.caja1{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.cen{
+    height: 100px;
+    width: 600px;
+    background: #A9EEEA;
+
+}
+
+.texto{
+    height: 200px;
+    width: 600px;
+    background: #A9EEEA;
+}
