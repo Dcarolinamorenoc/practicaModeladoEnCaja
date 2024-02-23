@@ -10,11 +10,13 @@ body{
 }
 
 .container{
+    height: 700px;
     display: flex;
     flex-flow: row wrap;
     flex-direction: column;
     align-items: center;
     align-content: center;
+    justify-content: center;
 }
 
 .caja1{
@@ -23,15 +25,19 @@ body{
 }
 
 
+
 .cen{
     height: 100px;
     width: 600px;
     background: #A9EEEA;
-
+    font-family: Merriweather;
+    padding: 20px;
 }
 
 .texto{
     height: 200px;
     width: 600px;
     background: #A9EEEA;
+    padding: 20px;
+    font-size: 28px;
 }
