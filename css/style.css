@@ -5,7 +5,7 @@
 }
 
 body{
-    background: #AAA9EE;
+    background: #f3f2f0;
     margin: 15px;
 }
 
@@ -29,7 +29,7 @@ body{
 .cen{
     height: 100px;
     width: 600px;
-    background: #A9EEEA;
+    background: #eae6e3;
     font-family: Merriweather;
     padding: 20px;
 }
@@ -37,7 +37,7 @@ body{
 .texto{
     height: 200px;
     width: 600px;
-    background: #A9EEEA;
+    background: #eae6e3;
     padding: 20px;
     font-size: 28px;
 }
