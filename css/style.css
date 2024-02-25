@@ -1,6 +1,43 @@
 *{
     padding: 0;
-    margin: 0;
+    margin: 10px;
     box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    height: 120px;
+    width: 200vh;
+    background: blueviolet;
+    text-align: center;
+    padding: 20px;
+    justify-content: center;
+}
+
+
+.caja1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caja2{
+    display: flex;
+    flex-direction: column;
+}
+
+.caja3{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer{
+    display: flex;
+    height: 120px;
+    width: 200vh;
+    background: blueviolet;
+    text-align: center;
+    padding: 20px;
+    justify-content: center;
 }
 
