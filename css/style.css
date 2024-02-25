@@ -10,34 +10,40 @@
     width: 200vh;
     background: blueviolet;
     text-align: center;
-    padding: 20px;
+    padding: 25px;
     justify-content: center;
 }
 
+.cajap{
+    flex-flow: row wrap;
+}
 
 .caja1{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
 }
 
 .caja2{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
 }
 
 .caja3{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
 }
 
 .footer{
+    flex-direction: column;
     display: flex;
     height: 120px;
     width: 200vh;
     background: blueviolet;
     text-align: center;
-    padding: 20px;
+    padding: 25px;
     justify-content: center;
 }
 
