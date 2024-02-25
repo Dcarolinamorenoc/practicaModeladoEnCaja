@@ -1,26 +1,28 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background: #93d9e9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-.container{
-    height: 100%;
+.container {
     display: flex;
-    flex-direction: row;   
-    justify-content: center;
+    justify-content: space-around;
     align-items: flex-start;
-    align-content: flex-start;
-    margin: 50px;
+    flex-wrap: wrap;
+    width: 900px;
 }
 
 .box1 {
     height: 480px;
-    width: 300px;
+    width: 250px;
     background: #11b635;
     display: flex;
     justify-content: space-between;
@@ -28,17 +30,24 @@ body{
     flex-direction: column;
     border-radius: 1vh;
     text-align: center;
+    margin: 10px;
+}
+
+.caja1 {
+    background: #b6e5c0;
+    width: 100%;
+    border-radius: 1vh;
 }
 
 .item {
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
     padding: 10px;
     font-size: 15px;
-    text-align: center; 
-    margin-top: 20px;
+    text-align: center;
+    margin-top: 5px;
 }
 
 .but {
@@ -47,22 +56,23 @@ body{
     font-size: 18px;
     background: #ffffff;
     color: #000;
-    align-self: center; 
-    margin: 20px;
+    align-self: flex-end; 
+    margin-bottom: 20px;
     border-radius: 1vh;
 }
 
-.but:hover{
+.but:hover {
     background: #D8CFD7;
     transition: 1s;
 }
 
-.letras{
+.letras {
     height: 380px;
     text-decoration: none;
     padding: 10px;
-    font-size: 20px;
+    font-size: 17px;
     background: #e30a0a;
     color: #000;
     border-radius: 1vh;
 }
+
