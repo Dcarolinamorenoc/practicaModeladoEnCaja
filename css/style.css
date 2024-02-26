@@ -4,7 +4,11 @@
     box-sizing: border-box;
 }
 
+
 .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
     margin: 20px;
 }
 
@@ -13,7 +17,7 @@
     justify-content: center;
     align-items: center;
     height: 190px;
-    width: 100%;
+    width: 1000px;
     background: #fa8071;
     text-align: center;
     padding: 25px;
@@ -25,20 +29,31 @@
     background: #1bbc9b;
     height: 70px;
     justify-content: space-between;
+    width: 1000px;
 }
 
 .sub1{
     display: flex;
     margin: 20px;
     flex-direction: row;
-    align-content: space-between;
-    
+
 }
+
+.sub1 .item {
+    margin-right: 20px; 
+    color: white;
+}
+
+
 
 .idiomas{
     display: flex;
     flex-wrap: wrap;
     margin: 20px;
-    justify-content: flex-end;
+
 }
 
+.idiomas .item {
+    margin-right: 20px; 
+    color: white;
+}
