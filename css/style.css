@@ -63,23 +63,26 @@
     text-decoration: none;
 }
 
-.footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80px;
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
     width: 1000px;
+    margin-right: -500px; 
     background: #dddddd;
     text-align: center;
     padding: 25px;
     font-size: 15px;
+    box-sizing: border-box;
+    justify-content: center;
 }
 
 .cajap{
     
     background-color: #f0f1f1;
     width: 30%;
-    height: 1000px;
+    height: 1100px;
     margin-right: auto;
 }
 
@@ -132,7 +135,7 @@
 .cajao{
     background-color: #ffffff;
     width: 70%;
-    height: 1000px;
+    height: 1100px;
     margin-left: auto;
     /* margin-top: -100%; */
 }
