@@ -62,3 +62,7 @@ body{
     border-radius: 2%;
     text-decoration: none;
 }
+
+.caja2 .item {
+    color: rgb(87, 83, 83);
+}
