@@ -22,7 +22,7 @@ body {
 
 .box1 {
     height: 480px;
-    width: 250px;
+    width: 280px;
     background: #fa8071;
     display: flex;
     justify-content: space-between;
@@ -76,7 +76,7 @@ body {
     background: #ffffff;
     color: #000;
     font-family: Roboto;
-    box-shadow: 0px 5px 50px -5px rgba(107, 95, 95, 0.75);
+    box-shadow: 0px 5px 30px -5px rgba(107, 95, 95, 0.75);
     /*border-radius: 1vh 1vh 0 0;  / Radio de borde en las esquinas superiores / recordar esto */
     border-bottom-left-radius: 1vh; /* Radio de esquina inferior izquierda */
     border-bottom-right-radius: 1vh; /* Radio de esquina inferior derecha */
