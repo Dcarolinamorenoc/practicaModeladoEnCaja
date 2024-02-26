@@ -132,7 +132,7 @@
     width: 70%;
     height: 1000px;
     margin-left: auto;
-    margin-top: -100%;
+    /* margin-top: -100%; */
 }
 
 .seis{
@@ -177,4 +177,8 @@
 
 .seis h1 {
     color: #8b8989; 
+}
+
+.super-caja{
+    display: flex;
 }
