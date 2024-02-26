@@ -24,6 +24,7 @@
     padding: 25px;
     font-size: 20px;
     color: white;
+    font-family: Roboto;
 }
 
 
@@ -88,6 +89,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: Roboto;
 }
 
 .cuatro h1 {
@@ -101,6 +103,7 @@
 
 .titulop{
     font-size: 10px;
+    font-family: Roboto;
 }
 
 .tex{
@@ -116,6 +119,7 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 20px;
+    font-family: Roboto;
 }
 
 .dos h1 {
@@ -140,6 +144,7 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 20px;
+    font-family: Roboto;
 }
 
 .seis h1 {
@@ -149,4 +154,15 @@
 
 .tex{
     font-size: 7px;
+}
+
+.item:hover{
+    text-decoration: underline;
+    transition: 1.2s ;
+    cursor: pointer;
+}
+
+.titu{
+    font-size: 15px;
+    font-family: Roboto;
 }
