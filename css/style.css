@@ -3,3 +3,42 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.container{
+    margin: 20px;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 190px;
+    width: 100%;
+    background: #fa8071;
+    text-align: center;
+    padding: 25px;
+    font-size: 20px;
+}
+
+.caja1{
+    display: flex;
+    background: #1bbc9b;
+    height: 70px;
+    justify-content: space-between;
+}
+
+.sub1{
+    display: flex;
+    margin: 20px;
+    flex-direction: row;
+    align-content: space-between;
+    
+}
+
+.idiomas{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    justify-content: flex-end;
+}
+
