@@ -132,7 +132,7 @@
 }
 
 .seis{
-    height: 230px;
+    height: 180px;
     width: 650px;
     background-color: #cccccc;
     text-align: center;
@@ -145,4 +145,8 @@
 .seis h1 {
     line-height: 100px; 
     margin: 0; 
+}
+
+.tex{
+    font-size: 7px;
 }
