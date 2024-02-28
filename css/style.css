@@ -1,5 +1,31 @@
 *{
     padding: 0;
-    margin: 10px;
+    margin: 0px;
     box-sizing:border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+.prin{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid red;
+    justify-content: flex-start;
+    width: 300px;
+}
+
+.foto{
+    border: 1px solid blue;
+    margin: 15px;
+}
+
+.admin{
+    margin: 15px;
+    border: 1px solid green;
+    font-family: DM Serif Display;
+    color: #2D1856;
 }
