@@ -17,6 +17,7 @@
     flex-direction: row;
     justify-content: flex-start;
     width: 300px;
+    margin-left: 10px;
 }
 
 .foto{
