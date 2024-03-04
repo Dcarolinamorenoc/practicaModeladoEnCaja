@@ -149,7 +149,9 @@
     height: 70px;
     align-items: center;
     margin: 20px;
+    margin-top: -20px;
     font-size: 10px;
+    border: 1px solid red;
 }
 
 .home{
@@ -168,4 +170,64 @@
 
 .letras{
     margin: 20px;
+}
+
+/* Aqui funcion de las barras y como hacerlas */
+
+.barra {
+    width: 230px;
+    height: 10px; /* Altura de la barra */
+    background-color: #f0f0f0; /* Color de fondo de la barra */
+    border-radius: 5px; /* Borde redondeado */
+    margin-bottom: 10px; /* Espacio entre barras */
+    margin: 0 auto 10px auto;
+  }
+  
+  .porcentaje {
+    height: 10px;
+    background-color: #5957a5; /* Color de la barra de progreso */
+    border-radius: 5px; /* Borde redondeado */
+  }
+
+  .cantidad {
+    width: 40%;
+  }
+
+ /* Aqui termina la funcion de las barras y como hacerlas */ 
+
+ .cuadritos{
+    border: 1px solid red;
+    height: 500px;
+ }
+
+ .cua{
+    border: 1px solid #d5cde9 ;
+    height: 165px;
+    margin-top: 25px;
+    margin-left: 20px; 
+    width: 260px;
+    background-color: #d5cde9;
+ }
+
+ .textico{
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    align-items: center; 
+    margin: 15px;
+ }
+
+ .si{
+    margin: 15px;
+    font-size: 10px;
+ }
+
+ .textico h1 {
+    color: #382d52; 
+}
+
+.por{
+    margin: 10px;
+    font-size: 10px;
+    color: #382d52; 
 }
