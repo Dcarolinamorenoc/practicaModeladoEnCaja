@@ -175,7 +175,7 @@
 /* Aqui funcion de las barras y como hacerlas */
 
 .barra {
-    width: 230px;
+    width: 260px;
     height: 10px; /* Altura de la barra */
     background-color: #f0f0f0; /* Color de fondo de la barra */
     border-radius: 5px; /* Borde redondeado */
@@ -205,8 +205,9 @@
     height: 165px;
     margin-top: 25px;
     margin-left: 20px; 
-    width: 260px;
+    width: 275px;
     background-color: #d5cde9;
+    border-radius: 10px;
  }
 
  .textico{
@@ -230,4 +231,9 @@
     margin: 10px;
     font-size: 10px;
     color: #382d52; 
+}
+
+.cuadritos{
+    display: flex;
+    flex-direction: row;
 }
