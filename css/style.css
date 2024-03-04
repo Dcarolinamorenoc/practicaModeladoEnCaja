@@ -12,6 +12,7 @@
     border: 1px solid blue;
 }
 
+
 .prin{
     display: flex;
     flex-direction: row;
@@ -124,12 +125,47 @@
     align-items: center;
 }
 
-.foto img {
+.fotico img {
     width: 40px; 
 }
 
-.foto{
+.fotico{
     display: flex;
     justify-content: space-between;
     width: 1200px;
+    margin: 20px;
+}
+
+.vis{
+    border: 1px solid red;
+    flex-direction: row;
+    background-color: aqua;
+}
+
+.tigre{
+    
+    flex-direction: row;
+    display: flex;
+    height: 70px;
+    align-items: center;
+    margin: 20px;
+    font-size: 10px;
+}
+
+.home{
+    
+    width: 60px;
+}
+
+.do{
+    
+    width: 400px;
+}
+
+.home h1 {
+    color: #5e478e; 
+}
+
+.letras{
+    margin: 20px;
 }
