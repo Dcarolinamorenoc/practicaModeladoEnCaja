@@ -35,7 +35,7 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    width: 280px;
+    width: 270px;
     margin-top: 35px;
     background-color: #baa6e1;
     margin-left: 20px;
@@ -206,7 +206,6 @@
  /* Aqui termina la funcion de las barras y como hacerlas */ 
 
  .cuadritos{
-    border: 1px solid red;
     height: 200px;
  }
 
@@ -246,4 +245,24 @@
 .cuadritos{
     display: flex;
     flex-direction: row;
+}
+
+.sal{
+    margin: 0px;
+    margin-top: 10px;
+    margin-left: 25px;
+    border: 1px solid red;
+    height: 170px;
+    background-color: #cdc0ef;
+    border-radius: 10px;
+    width: 1160px;
+}
+
+.reports{
+    margin: 20px;
+}
+
+.holita{
+    margin: 20px;
+    margin-top: 35px;
 }
